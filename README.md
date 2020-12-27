@@ -8,3 +8,7 @@ The code still contains my database server and credentials; I have deleted the d
 ### Features:
 * Creating new users, hashing the passwords into a database (with username and password columns), checking if username already exists
 * Logging in, which compares the hashed password with the hashed input from the password field at login time (and returns either invalid password or login successful)
+
+### Components:
+* UI: Built with Scene Builder by Gluon
+* Hashing: Using Bcrypt - https://github.com/patrickfav/bcrypt
